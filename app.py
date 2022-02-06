@@ -18,6 +18,10 @@ def fazemos():
 def blog():
     return render_template('blog.html')
 
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
