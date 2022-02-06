@@ -10,6 +10,10 @@ def index():
 def sobre():
     return render_template('sobre.html')
 
+@app.route('/fazemos')
+def fazemos():
+    return render_template('fazemos.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
