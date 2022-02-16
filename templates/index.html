@@ -14,10 +14,27 @@
     <i class="bi bi-list menu-mobile"></i>
     <aside id="header">
         <section class="profile">
-            <img src="../static/img/h4t-logo-site.png" alt="logotipo">
+            <img src="../static/img/logo.png" alt="logotipo">
             <h1>H4T HUMANIZATION FOR TRANSFORMATION</h1>
-            <div class="social-links mt-4 text-center">
-                <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col social-links mt-4 text-center">
+                        <a target="_blank" href="#"><i class="bi bi-facebook" style="font-size: 1.8rem; color: #3b5998;">
+                        </i></a>
+                    </div>
+                    <div class="col social-links mt-4 text-center">
+                        <a target="_blank" href="#"><i class="bi bi-whatsapp" style="font-size: 1.8rem; color: #34af23;">
+                        </i></a>
+                    </div>
+                    <div class="col social-links mt-4 text-center">
+                        <a target="_blank" href="#"><i class="bi bi-instagram" style="font-size: 1.8rem; color: #3f729b;">
+                        </i></i></a>
+                    </div>
+                    <div class="col social-links mt-4 text-center">
+                        <a target="_blank" href="#"><i class="bi bi-twitter" style="font-size: 1.8rem; color: #00aced;">
+                        </i></a>
+                    </div>
+                </div>
             </div>
         </section>
         <nav id="nav-bar" class="nav-menu">
@@ -27,12 +44,8 @@
                     <i class="bi bi-house"></i>HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sobre">
+                    <a class="nav-link" href="/sobre-nos">
                     <i class="bi bi-person"></i>SOBRE NÓS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#quem-somos" class="nav-link">
-                    <i class="bi bi-person"></i>QUEM SOMOS</a>
                 </li>
                 <li class="nav-item">
                     <a href="/fazemos" class="nav-link">
@@ -50,67 +63,76 @@
         </nav>
     </aside>
     <main id="main">
-        <section id="inicio" class="row m-0 p-0">
-            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-white text-shadow mt-5">H4T HUMANIZATION FOR TRANSFORMATION</h2>
-                <p class="text-shadow">Queremos elevar o patamar do atendimento, para que pessoas e organizações possam trabalhar seu projeto com qualidade e clareza, através da parceria e envolvimento seguiremos juntos de mãos dadas nessa jornada.</p>
-            </div>
-            <div class="col-md-7 d-flex justify-content-end align-items-end">
-                <div id="arraste" class="d-flex align-items-center">
-                    <a href="#quem-somos"> <i class="bi bi-arrow-down text-white pe-4 fs-2" aria-hidden="true"></i>Arraste para mais</a>
-                </div>
+        <section id="video">
+            <video class="container-md pt-2" controls autoplay loop muted>
+                <source src="../static/videos/paty.mp4" type="video/mp4">
+                  Seu navegador não suporta a tag de vídeo.
+            </video>
+        </section>
+        <section id="inicio">
+            <div class="container-sm p-4">
+                <p>Queremos elevar o patamar do atendimento, para que pessoas e organizações possam trabalhar seu projeto 
+                com qualidade e clareza, através da parceria e envolvimento seguiremos juntos de mãos dadas nessa jornada.</p>
+                <a href="/quem-somos">
+                    <button type="button" class="btn">SAIBA MAIS</button>
+                  </a>
             </div>
         </section>
-        <section class="container mt-3" id="quem-somos">
-            <div class="row w-100">
-                <div class="col-md-12" data-anime="down">
-                    <h2 class="pt-3">Quem somos</h2>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <img class="img-fluid shadow" src="../static/img/carlos.png"
-                         alt="Foto do Carlos" data-anime="left">
-                </div>
-                <div class="col-md-8" data-anime="right">
-                    <h3>Carlos Gante</h3>
-                    <h5>Consultor, Coach e Palestrante</h5>
-                    <p>Formado em Engenharia Ambiental pela Universidade São Judas e Personal Coaching e Leader Coach pela Sociedade Brasileira de Coaching, Super Leader pelo Instituo Lyouman, Practitioner em PNL pela Sociedade Brasileira de PNL, além de diversos cursos de especialização.</p>
-                    <p>Experiencia de 10 anos atuando como Líder de equipe, prestando serviço para grandes empresas como: Odebrecht, VLI Logística e Iguá Saneamento.</p>
-                    <p>Ao longo da carreira apoiou e treinou novos Líderes nas empresas, potencializando as habilidades individuais dos membros da equipe. Atualmente é Sócio Fundador da H4T Consulting.</p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-8" data-anime="left">
-                    <h3>Patricia Lopes</h3>
-                    <h5>Consultor, Coach, Analista Comportamental e Palestrante</h5>
-                    <p>Formada em Recursos Humanos e Turismo, pela Universidade Bandeirante de São Paulo, com especializações em Gestão de Pessoas, pela Fundação Getúlio Vargas, Análise Comportamental, Professional, Leader & Executive, pela Sociedade Latino-Americana de Coaching.</p>
-                    <p>Atuando há mais de 12 anos na área de Recursos Humanos, especificamente em T&D, é especialista em Desenvolvimento, Liderança e Mapeamento de Perfil Comportamental.</p>
-                    <p>Neste período já ministrou treinamento para mais de 5.000 profissionais em todos os níveis hierárquicos, apoiou diversos projetos corporativos e criou centenas de conteúdos, entre eles, “O Jeito Disney de Encantar”, curso voltado para excelência no atendimento com base em lições da Disney.</p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid shadow" src="../static/img/patricia.png"
-                         alt="Foto da Patricia" data-anime="right">
-                </div> 
+        <section id="o-que-fazemos">
+            <div class="container-sm p-4">
+                <img src="../static/img/5.jpg" class="figure-img img-fluid rounded" alt="...">
+                <h2>O QUE FAZEMOS ?</h2>
+                <p>Atuamos com o desenvolvimento de talentos, sejam eles nas organizações ou individualmente.</p>
+                <a href="/fazemos">
+                    <button type="button" class="btn">SAIBA MAIS</button>
+                  </a>
             </div>
         </section>
-        <section id="o-que-fazemos" class="row m-0 p-0 mt-5">
-            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-                <h2 class="text-white text-shadow mt-5" data-anime="left">O QUE FAZEMOS</h2>
-                <p class="text-shadow" data-anime="right">Atuamos com o desenvolvimento de talentos, sejam eles nas organizações ou individualmente.</p>
-                <a href="/fazemos" type="button" class="btn btn-outline-secondary" data-anime="down">Saiba Mais</a>
-            </div>
-        </section>
-        <footer id="footer">
-            <div class="container">
-                <div class="text-center">
-                    &copy; Copyright <strong><em>H4T Humanization For Transformation</em></strong>
-                    <p>criação de sites: <strong><em>claudioglopes2@gmail.com</em></strong></p>
+        <section id="blog-inicio">
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">O Cliente Interno e a Qualidade no Atendimento</h5>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </footer>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gestão de Pessoas em Tempo de Crise</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">A Magia do Atendimento</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Enfrentando seu Lado Sombra</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
-    
+    <footer id="footer">
+        <div class="container-ms p-3 mt-4">
+            <div class="text">
+                &copy; Copyright <strong><em>H4T Humanization For Transformation</em></strong>
+                <p>criação de sites: <strong><em>claudioglopes2@gmail.com</em></strong></p>
+            </div>
+        </div>
+    </footer>
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
 </body>

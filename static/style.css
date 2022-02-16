@@ -3,8 +3,7 @@
 html, body {
     font-family: Ubuntu, Arial;
     width: 100%;
-    height: 100%;
-    background-color: #e3e3e3;
+    background-color: #161616;
 }
 
 #header {
@@ -36,21 +35,6 @@ html, body {
     font-weight: 600;
     text-align: center;
     color: #e3e3e3;
-}
-
-#header .profile .social-links a {
-    font-size: 1rem;
-    background: #051f96;
-    color: #fff;
-    padding: 0.6rem;
-    margin-right: 1rem;
-    border-radius: 50%;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-#header .profile .social-links a:hover {
-    background: #149ddd;
 }
 
 .nav-menu {
@@ -90,45 +74,6 @@ html, body {
     color: #FFD504;
 }
 
-#main {
-    margin-left: 300px;
-}
-
-section#inicio {
-    background-image: url("./img/sala-treinamento.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center;
-    width: 100%;
-    height: 100vh;
-    margin-left: 10px;
-}
-
-section#inicio h2 {
-    font-size: 2rem;
-}
-
-section#inicio p {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #FFD504;
-}
-
-.text-shadow {
-    text-shadow: 4px 4px 10px #000;
-}
-
-section#inicio div#arraste {
-    width: 9rem;
-    margin-bottom: 20px;
-}
-
-section#inicio div#arraste a {
-    text-decoration: none;
-    color: #fff;
-}
-
 i.menu-mobile {
     position: fixed;
     color: #fff;
@@ -154,31 +99,90 @@ i.menu-mobile {
     left: 0;
 }
 
+#main {
+    margin-left: 300px;
+}
+
+#inicio p {
+    font-size: 2rem;
+    color: #fab636;
+}
+
+#inicio .btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 40%;
+    background: #fab636;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#inicio .btn:hover {
+    background: #000;
+    color: #fab636;
+}
+
+#o-que-fazemos h2 {
+    padding: 20px;
+    color: #e3e3e3;
+}
+
+#o-que-fazemos p {
+    font-size: 2rem;
+    color: #fab636;
+    padding-left: 20px;
+}
+
+#o-que-fazemos .btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 40%;
+    background: #fab636;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#o-que-fazemos .btn:hover {
+    background: #000;
+    color: #fab636;
+}
+
+.card-body {
+    background-color: #161616;
+}
+
+.card-body h5 {
+    color: #e3e3e3;
+    text-align: center;
+}
+
+#footer {
+    background-color: #fab636;
+}
+
+#footer .text {
+    text-align: center;
+    margin-left: 25%;
+}
+
 @media (max-width: 1024px) {
     #header {
         left: -300px;
     }
+
     i.menu-mobile {
         display: flex;
     }
-    section#inicio h2 {
-        font-size: 1.5rem;
-    }
-    section#inicio p {
-        margin-right: 0;
-        font-size: 1rem;
-    }
+
     #main {
         margin-left: 0;
     }
-}
 
-*::-webkit-scrollbar {
-    width: 10px;
-}
-
-#quem-somos img {
-    border-radius: 10px;
+    #footer .text {
+        margin-left: 0;
+    }
 }
 
 /* Animação */
@@ -208,66 +212,4 @@ i.menu-mobile {
     transform: translate3d(0, 0, 0);
 }
 
-#o-que-fazemos {
-    background-image: url("./img/foto1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:center;
-    width: 100%;
-    height: 100vh;
-    margin-left: 10px;
-}
 
-#o-que-fazemos h2 {
-    font-size: 2rem;
-}
-
-#o-que-fazemos p {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #FFD504;
-}
-
-#titulo {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-#video {
-    margin-top: 10%;
-}
-
-#subTitulo {
-    margin-top: 2rem;
-}
-
-@media (max-width: 1024px) {
-    #video {
-        margin-top: 30%;
-    }
-
-    #titulo {
-        margin: 0 auto;
-    }
-
-} 
-
-#footer {
-    padding: 10px;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    margin-top: 5px;
-    background-color: #E5E6EA;
-}
-
-#footer strong {
-    color: #CCAB04;
-}
-
-#footer p {
-    text-decoration: none;
-    color: #1f5297;
-}
