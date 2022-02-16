@@ -103,6 +103,10 @@ i.menu-mobile {
     margin-left: 300px;
 }
 
+.text-shadow {
+    text-shadow: 4px 4px 10px #fff;
+}
+
 #inicio p {
     font-size: 2rem;
     color: #fab636;
@@ -121,6 +125,90 @@ i.menu-mobile {
 #inicio .btn:hover {
     background: #000;
     color: #fab636;
+}
+
+#sobre h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #e3e3e3;
+    padding: 2rem;
+}
+
+#sobre h2 {
+    font-size: 2.5rem;
+    color: #FFD504;
+    padding: 1rem;
+}
+
+#sobre h3 {
+    font-size: 2rem;
+    color: #FFD504;
+    padding: 1rem;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    color: #e3e3e3;
+    padding-left: 1rem;
+}
+
+#sobre li {
+    color: #e3e3e3;
+}
+
+#somos h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #e3e3e3;
+    padding: 2rem;
+}
+
+#carlos img {
+    padding: 0 2rem;
+    border-radius: 4rem;
+}
+
+#carlos h2 {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFD504;
+}
+
+#carlos h3 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: #FFA408;
+}
+
+#carlos p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    color: #e3e3e3;
+}
+
+#patricia img {
+    padding: 0 2rem;
+    border-radius: 4rem;
+}
+
+#patricia h2 {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFD504;
+}
+
+#patricia h3 {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: #FFA408;
+}
+
+#patricia p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    color: #e3e3e3;
 }
 
 #o-que-fazemos h2 {
@@ -156,6 +244,10 @@ i.menu-mobile {
 .card-body h5 {
     color: #e3e3e3;
     text-align: center;
+}
+
+.card a {
+    text-decoration:none
 }
 
 #footer {
